@@ -12,6 +12,10 @@ def main():
     songs = int(input("How many songs? "))
     videos = int(input("How many videos? "))
 
+    if photos < 0 or songs < 0 or videos < 0:
+        print("Please enter non-negative numbers.")
+        return
+
     total_mb = photos * PHOTO_MB + songs * SONG_MB + videos * VIDEO_MB
     total_gb = total_mb / 1024
 
