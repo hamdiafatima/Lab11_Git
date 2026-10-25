@@ -20,7 +20,6 @@ def main():
     total_gb = total_mb / 1024
 
     print("Estimated storage needed:", round(total_mb, 1), "MB")
-    print("That is about", round(total_gb, 2), "GB")
-
+    print("That is about", round(total_gb, 2), "GB (1024 MB = 1 GB)")
 
 main()
