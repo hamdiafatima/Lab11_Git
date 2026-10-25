@@ -1,5 +1,4 @@
-# Storage Estimator
-
+Storage Estimator - Feature Version
 ## Purpose
 
 The Storage Estimator is a Python program that calculates the estimated storage required for a collection of photos, songs, and videos.
